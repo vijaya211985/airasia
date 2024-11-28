@@ -1,4 +1,6 @@
 pip install --upgrade pip
+python = ">=3.8,<3.9.7 || >3.9.7,<4"
+importlib_metadata = {version = "^1.6.0", python = "<3.9"}
 import streamlit as st
 import numpy as np
 import pandas as pd
